@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+header{
+    padding: 30px 0;
+    background-color: #54B4FF;
+}
+.header_wrapper{
+    width: 90%;  
+    display: flex;
+    justify-content: space-between;  
+    margin: auto;    
+    align-items: center;
+}
+
+
+
+.menu{
+    width: 100%;
+    
+}
+.menu ul li a img{
+    width: 110px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    
+}
+.menu ul li{
+
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+}
+.feature_image{
+    width: 40%;
+    background-color: #5CBBFF;
+
+}
+.feature_image img{
+
+}
+.contact_form{
+    width: 60%;
+    background-color: #0093FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+
+width: 40%;
+}
+
+.contact h1{
+
+color: white;
+
+font-family: sans-serif;
+}
+.contact p{
+
+color: white;
+
+margin: 20px 0;
+
+font-family: sans-serif;
+}
+.contact h3{
+
+color: #fff;
+
+text-transform: capitalize;
+
+font-family: sans-serif;
+
+margin-bottom: 10px;
+}
+.contact form{
+}
+.contact form input{
+
+width: 100%;
+
+margin-bottom: 5px;
+
+padding: 5px;
+
+border: none;
+}
+.contact form input[type="submit"]{
+    width: auto;
+    padding: 8px 20px;
+    text-transform: capitalize;
+}
+
+.other{
+    width: 100%;
+    margin-top: 40px;
+    
+}
+.other ul{
+    list-style: none;
+    display: flex;
+    justify-content:start;
+    
+    
+    
+}
+.other ul li span{
+    color: #fff;
+
+}
+.other ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+    text-transform: capitalize;
+}
